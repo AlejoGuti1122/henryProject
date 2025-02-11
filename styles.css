@@ -99,6 +99,8 @@ body {
 .text2 {
   background-color: #ffff00;
   display: flex;
+  font-weight: 500;
+  font-size: 16px;
   justify-content: center;
   align-items: center;
   width: 370px;
