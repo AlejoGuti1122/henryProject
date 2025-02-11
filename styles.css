@@ -9,6 +9,7 @@
   justify-content: flex-end;
   box-sizing: border-box; /* Añadido para incluir padding en el ancho total */
 }
+
 .logo {
   width: 134px;
   height: 27px;

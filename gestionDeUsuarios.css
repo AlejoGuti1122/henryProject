@@ -1,3 +1,14 @@
+.header {
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  position: sticky; /* Cambiado de relative a sticky */
+  top: 0; /* Mantiene el navbar en la parte superior */
+  z-index: 1000;
+}
+
 .box8 {
   background-color: #fafafa;
   height: 512px;
@@ -6,12 +17,18 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  position: relative; /* Añadido */
+  z-index: 1; /* Menor que el z-index del header */
+ 
 }
 
 .tittle8 {
   font-size: 35px;
   font-weight: 900px;
   color: #222222;
+  margin-top: -0px;
+  margin-top: 7px;
+  
 }
 
 .text8 {
@@ -19,19 +36,22 @@
   font-weight: 500;
   color: #222222;
   background-color: #ffff00;
-  width: 265px;
-  height: 46px;
+  width: 245px;
+   /* Cambiado de height a min-height */
+  height: 16px; /* Permite que crezca según el contenido */
   border-radius: 23px;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: -0px;
+  padding: 15px; /* Añadir padding para aumentar el espacio interior */
+  margin: 20px 0; /* Ajustar márgenes verticales */
+  margin-top: -10px;
 }
 
 .box9 {
   background-color: #ffffff;
   width: 900px;
-  height: 400px;
+  height: 368px;
   justify-content: start;
   align-items: center;
   display: flex;
