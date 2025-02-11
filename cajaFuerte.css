@@ -1,0 +1,134 @@
+.box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  width: 100%;
+  height: 510px;
+  gap: 20px; /* Espacio entre elementos */
+}
+
+.tittle4 {
+  color: #222222;
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+}
+
+.box5 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 325px;
+  margin: 5px auto;
+}
+
+.text4 {
+  color: #222222;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ffff00;
+  width: 177px;
+  height: 46px;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Esto centrará horizontalmente */
+  margin-top: 20px; /* Ajusta el espacio superior */
+}
+
+.text5 {
+  display: flex;
+  justify-content: start;
+
+  color: #676767;
+  font-size: 13px;
+  font-weight: 500px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -40px;
+  margin-right: 20px;
+}
+
+.text5 {
+  margin: 0;
+  font-size: 14px;
+  color: #676767;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.input5 {
+  width: 150px;
+  height: 16px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.save-button {
+  background-color: #222222;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: poppins;
+  height: 50px;
+}
+
+.validation-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -25px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.validate-button,
+.reset-button {
+  background-color: #222222;
+  font-size: 20px;
+  font-weight: 700px;
+font-family: poppins;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.text6 {
+  color: #222222;
+  font-weight: 500;
+  font-size: 14px;
+  color: #676767;
+}

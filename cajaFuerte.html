@@ -7,6 +7,11 @@
       content="width=device-width, initial-scale=1.0"
     />
     <link
+      href="./cajaFuerte.css"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="./styles.css"
     />
@@ -33,6 +38,39 @@
       <a href="./monitoreoDeActividad.html">Monitoreo de Actividad</a>
       <a href="./gestionDeUsuarios.html">Gestión de Usuarios</a>
     </header>
-    <main>Holaaaaaaaaa</main>
+    <main class="box4">
+      <div class="container3">
+        <h1 class="tittle4">Asistente de seguridad</h1>
+        <p class="text4">CAJA FUERTE</p>
+      </div>
+      <div class="box5">
+        <div class="input-group">
+          <p class="text5">Código Secreto</p>
+          <input
+            type="text"
+            class="input5"
+          />
+          <p class="text5">Cantidad de intentos</p>
+          <input
+            type="number"
+            class="input5"
+          />
+          <button class="save-button">GUARDAR</button>
+        </div>
+        <div class="validation-group">
+          <div class="input-row">
+            <p class="text6">Validar Código Secreto</p>
+            <input
+              type="text"
+              class="input5"
+            />
+          </div>
+          <div class="button-group">
+            <button class="validate-button">VALIDAR CÓDIGO</button>
+            <button class="reset-button">RESET</button>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

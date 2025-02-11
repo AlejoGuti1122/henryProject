@@ -11,6 +11,15 @@
       href="./styles.css"
     />
     <link
+      rel="stylesheet"
+      href="./common.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/ruta/completa/generarContraseña.css"
+    />
+
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
@@ -33,6 +42,49 @@
       <a href="./monitoreoDeActividad.html">Monitoreo de Actividad</a>
       <a href="./gestionDeUsuarios.html">Gestión de Usuarios</a>
     </header>
-    <main>Holaaaaaaaaaaa</main>
+    <main class="box2">
+      <div class="container2">
+        <h1 class="tittle">Asistente de seguridad</h1>
+      </div>
+      <p class="text2">Generador de contraseñas para usuarios:</p>
+      <div class="box3">
+        <div class="input-container">
+          <p class="text3">Cantidad de caracteres deseados</p>
+          <input
+            type="number"
+            class="input"
+            placeholder="8"
+          />
+        </div>
+        <div class="input-container">
+          <p class="text3">¿Incluir caracteres especiales?</p>
+          <input
+            type="text"
+            class="input"
+            placeholder="Si"
+          />
+        </div>
+        <div class="input-container">
+          <p class="text3">¿Incluir caracteres números?</p>
+          <input
+            type="number"
+            class="input"
+            placeholder="Si"
+          />
+        </div>
+        <div class="input-container">
+          <p class="text3">¿Incluir caracteres mayúsculas?</p>
+          <input
+            type="text"
+            class="input"
+            placeholder="Si"
+          />
+        </div>
+        <div>
+          <button class="button">Generar Contraseña</button>
+        </div>
+      </div>
+      
+    </main>
   </body>
 </html>

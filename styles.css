@@ -1,15 +1,14 @@
 .header {
-  width: 1289px;
+  width: 100%; /* Cambiado de 1289px a 100% */
   background-color: #f1f1f1;
   height: 69px;
-
-  display: flex; /* Añadido */
-  align-items: center; /* Añadido */
-  gap: -px; /* Añadido */
-  margin-left: -10px; /* Añadido */
-  justify-content: flex-end; /* Mueve los elementos a la derecha */
+  display: flex;
+  align-items: center;
+  margin: 0; /* Eliminado margin-left negativo */
+  padding: 0 20px; /* Añadido padding horizontal */
+  justify-content: flex-end;
+  box-sizing: border-box; /* Añadido para incluir padding en el ancho total */
 }
-
 .logo {
   width: 134px;
   height: 27px;
@@ -26,7 +25,7 @@
   text-decoration: none; /* Añadido */
   padding: 0 12px; /* Añadido */
   margin: 0; /* Eliminado margin-top negativo */
-  margin-right: 30px;
+  margin-right: 24px;
   height: 30px;
   border-radius: 9px;
   display: flex; /* Añadido */
@@ -50,23 +49,7 @@ body {
   padding: 0;
 }
 
-.text {
-  color: #222222;
-  background-color: #f1f1f1;
-  width: 310px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20px;
-  font-weight: 500;
-  font-size: 14px;
-  border-radius: 23px;
-  margin-top: 70px;
-  margin-left: 140px;
-}
-
-main {
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,4 +73,89 @@ main {
   height: auto;
   margin-top: 60px;
   margin-right: 100px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tittle {
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 25px;
+}
+
+.box2 {
+  background-color: #fafafa;
+  height: 510px;
+  display: flex; /* Añadido */
+  flex-direction: column; /* Añadido */
+  align-items: center; /* Añadido */
+  justify-content: start; /* Añadido */
+}
+
+.text2 {
+  background-color: #ffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 46px;
+  border-radius: 23px;
+  margin: 0 auto;
+}
+
+.box3 {
+  width: 900px;
+  height: 325px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; /* Añadido */
+}
+
+.text3 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espacio entre texto e input */
+  margin-top: 10px;
+}
+
+.input {
+  width: 40px;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  border-color: #a3a3a3;
+  margin-top: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra suave */
+}
+
+.text3 {
+  margin: 0; /* elimina el margen por defecto del párrafo */
+  margin-top: 20px; /* añade margen superior */
+}
+
+.button {
+  background-color: #222222;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  width: 245px;
+  margin-top: 30px;
+  height: 50px;
 }

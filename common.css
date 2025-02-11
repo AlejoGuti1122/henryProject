@@ -1,0 +1,50 @@
+.header {
+  width: 100%; /* Cambiado de 1289px a 100% */
+  background-color: #f1f1f1;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  margin: 0; /* Eliminado margin-left negativo */
+  padding: 0 20px; /* Añadido padding horizontal */
+  justify-content: flex-end;
+  box-sizing: border-box; /* Añadido para incluir padding en el ancho total */
+}
+.logo {
+  width: 134px;
+  height: 27px;
+  margin: 21px 0 21px 20px;
+  margin-right: 270px;
+}
+
+.header a {
+  font-family: poppins;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  margin-top: 21px;
+  color: #222222;
+  text-decoration: none; /* Añadido */
+  padding: 0 12px; /* Añadido */
+  margin: 0; /* Eliminado margin-top negativo */
+  margin-right: 24px;
+  height: 30px;
+  border-radius: 9px;
+  display: flex; /* Añadido */
+  align-items: center; /* Añadido */
+  justify-content: center;
+  font-weight: 500;
+}
+
+.header a:hover,
+.header a.active,
+.header a:active {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}

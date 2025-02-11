@@ -1,0 +1,139 @@
+.box8 {
+  background-color: #fafafa;
+  height: 512px;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tittle8 {
+  font-size: 35px;
+  font-weight: 900px;
+  color: #222222;
+}
+
+.text8 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222222;
+  background-color: #ffff00;
+  width: 265px;
+  height: 46px;
+  border-radius: 23px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -0px;
+}
+
+.box9 {
+  background-color: #ffffff;
+  width: 900px;
+  height: 400px;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  margin-bottom: -10px; /* Añadido para acercar los grupos */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #a3a3a3;
+}
+
+.text9 {
+  color: #676767;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.input9 {
+  width: 200px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.view-button {
+  background-color: #222222;
+  width: 100px;
+  color: #ffffff;
+  font-family: poppins;
+  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: -6px;
+}
+
+.box10 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.access-group {
+  display: flex;
+  flex-direction: column;
+  gap: -5px;
+  margin-top: -20px;
+}
+
+.text10 {
+  color: #a5a4a4;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.tittle10 {
+  color: #676767;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input10 {
+  width: 200px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-button {
+  background-color: #222222;
+  width: 150px;
+  color: #ffffff;
+  font-family: poppins;
+  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 105px;
+  margin-top: 12px;
+}
